@@ -244,5 +244,7 @@ for region, position in regions.items():
     label.place(x=position[0], y=position[1])
     label.bind("<Button-1>", lambda e, r=region: open_region_window(r))
 
+tk.Label(text="Select a region to know about its Endangered Languages", font = ("Arial", 12) ).pack()
+
 # Run the application
 window.mainloop()
