@@ -6,4 +6,4 @@ Our project bridges the gap between endangered languages and the masses. By pres
 The platform features an interactive map of India, divided into five regions: North, West, Central, East, and South. Selecting a region reveals a picture of that region and endangered languages. Information about the origin, cultural significance, and linguistic value of the selected languages is provided.
 Our mission is to educate and inspire people, ensuring these incredible languages are revived, preserved, and celebrated for generations to come.
 
-![Endangered Languages Poster]("C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\PythonComp.png")
+![alt text](https://github.com/PranayS909/Endangered_Indian_Languages/blob/main/PythonComp.png?raw=true)
