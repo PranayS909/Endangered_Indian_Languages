@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Asur",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": "Asur is a critically endangered language spoken by the Asur tribe, an indigenous community primarily residing in the Jharkhand state of India, with small populations in Bihar and West Bengal. The Asur language belongs to the Austroasiatic language family, specifically the Munda branch, which also includes other tribal languages like Santali and Mundari. With very few fluent speakers left, the language is at risk of extinction, as younger generations are increasingly shifting to dominant regional languages like Hindi and Bengali.",
+        "cultural_significance": " The Asur tribe is known for its traditional iron-smelting skills, and their language includes rich vocabulary related to metallurgy and their environment, reflecting their deep relationship with nature and sustainable living.Preservation of Traditions: Asur is vital for retaining traditional rituals, songs, and ceremonies, which are integral to the tribe’s cultural expression.",
+        "linguistic_significance": "The language exhibits distinctive phonological, grammatical, and lexical features that differentiate it from neighboring Indo-Aryan and Dravidian languages."
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Asur Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()

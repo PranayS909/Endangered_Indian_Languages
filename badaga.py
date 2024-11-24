@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Badaga",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": "Badaga is a language spoken by the Badaga people in the Nilgiri Hills of southern India. It belongs to the Dravidian language family, like Tamil and Kannada. Though many Badagas also speak Tamil or Kannada, Badaga is an important part of their community.",
+        "cultural_significance": "Badaga is key to the Badaga people's culture, as it helps pass down their traditions, songs, and stories. It connects them to their history, farming practices, and celebrations, keeping their culture alive.",
+        "linguistic_significance": "Badaga has its own unique sounds and grammar, making it different from other Dravidian languages. Linguists study it to learn more about how languages change and connect with each other.",
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Badaga Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()

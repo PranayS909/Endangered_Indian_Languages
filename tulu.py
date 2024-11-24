@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Tulu",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": "Tulu is a language spoken by people in the southwestern part of India, especially in the state of Karnataka and Kerala. It's a part of the Dravidian language family, which includes other languages like Tamil, Telugu, and Kannada. Tulu is unique because it is not widely spoken outside of the region, but it has a rich history and is loved by the people who speak it. Many people who speak Tulu also speak Kannada or Malayalam.",
+        "cultural_significance": "Tulu is important for the people who speak it because it helps them keep their cultural traditions alive. Tulu is used in many festivals, songs, and dances that are special to the Tulu-speaking community. For example, they have their own folk songs and plays, and Tulu is often used in religious ceremonies. Speaking Tulu connects people with their heritage and family history, and it helps them feel proud of their unique culture.",
+        "linguistic_significance": "Linguistically, Tulu is interesting because it has its own set of sounds, words, and grammar. It uses a script called 'Tulu script' in some places, but many people write it in the Kannada script. Tulu has a special way of making sentences and is known for its unique words and expressions. Even though it’s not as widely spoken as other languages, Tulu is an important language for linguists to study because it helps them understand how languages in the Dravidian family have evolved.",
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Tulu Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()

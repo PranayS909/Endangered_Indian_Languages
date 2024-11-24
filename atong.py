@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Atong",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": "Atong language (Sino-Tibetan)-Atong is a Sino-Tibetan language spoken primarily by the Atong people in the Northeastern region of India, specifically in the state of Nagaland. Atong has a relatively small number of speakers, and it is considered an endangered language as it is facing gradual decline in favor of more widely spoken languages such as English and Nagamese.",
+        "cultural_significance": "Atong language is a vital component of the Atong people’s cultural identity. It is used in traditional ceremonies, songs, and folklore that are important in the community’s rituals and everyday life. Festivals, rites of passage, and dance performances often involve storytelling and music in Atong, showcasing its cultural relevance.",
+        "linguistic_significance": "Atong is a tonal language, where the meaning of words can change based on pitch or tone.It follows a subject-object-verb (SOV) sentence structure, which is typical of many Sino-Tibetan languages. Linguistic diversity within the Sino-Tibetan family: Atong contributes to the linguistic richness of the Sino-Tibetan family, with unique features compared to other languages in the region.",
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Atong Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()

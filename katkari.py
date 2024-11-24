@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Katkari",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": "Katkari is a language spoken by the Katkari people, a tribal group mostly found in the western part of India, especially in Maharashtra and Gujarat. It is a part of the Dravidian language family, which includes languages like Tamil, Telugu, and Kannada. Although Katkari is an old and unique language, many Katkari people now speak Marathi or Hindi, so fewer people speak Katkari today. This makes the language endangered.",
+        "cultural_significance": "The Katkari language is a key part of the Katkari people’s culture. It helps them tell stories, sing songs, and share traditions that have been passed down through generations. The language is used in rituals, festivals, and special ceremonies, helping the Katkari people connect with their history and their ancestors. By speaking Katkari, they can celebrate their identity and stay connected to their community and heritage.",
+        "linguistic_significance": "Katkari has a unique way of speaking and sounds that are different from languages like Marathi or Hindi. This makes it special and distinct. It has its own grammar and way of putting words together to form sentences. It also has some special words that other languages don’t use. Katkari doesn’t have a specific writing system, so it’s mostly passed down through speaking and listening.",
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Katkari Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()

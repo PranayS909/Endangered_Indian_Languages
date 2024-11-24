@@ -42,7 +42,7 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Balti",
         "script_photo": "/mnt/data/India_Map.jpg",
         "description": "The Balti language is a member of the Tibetic branch of the Sino-Tibetan language family and is primarily spoken in the far norther regions of India in parts of  Ladakh, India. With approximately 400,000 speakers, it is closely related to Classical Tibetan and shares similarities with Ladakhi and other Tibetan dialects.",
         "cultural_significance": "The phonetics of the Balti language features a set of consonant sounds including bilabial plosives like /p/, /ph/, and /b/, a nasal /m/, a glide /w/, and a distinct set of glottal plosives like /q/, /x/, and /g/, with the notable characteristic of having a separate phoneme for the aspirated ph sound, unlike English; it also has a range of vowel sounds with variations in articulation depending on the speaker and dialect.",

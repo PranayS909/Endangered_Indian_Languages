@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Kolhati",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": "-Kolhati is a language spoken by the Kolhati people, who are mainly found in the Maharashtra state of India. It is part of the Indo-Aryan language family, which also includes languages like Hindi, Gujarati, and Marathi. Kolhati is not widely spoken anymore, and many Kolhati people now speak Marathi or Hindi in their daily lives, so this language is becoming less common.",
+        "cultural_significance": "The Kolhati language is very important to the Kolhati community because it helps them keep their traditions, stories, and customs alive. In the past, they used the Kolhati language to tell folk tales, sing songs, and celebrate festivals, which passed down their culture to younger generations.",
+        "linguistic_significance": "Kolhati has its own sounds and words that make it unique from languages like Marathi or Hindi, so it’s different in how it sounds and how sentences are put together. The language has a special grammar and word order, which makes it distinct from other languages spoken in the region. There is no special writing system for Kolhati, so it’s mostly shared through talking and listening.",
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Kolhati Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()

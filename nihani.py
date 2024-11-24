@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Nihani",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": " Nihani-Nihali is a very old language spoken by a small group of people called the Nihal in parts of Madhya Pradesh and Maharashtra in India. It is different from many other languages spoken around it, so it is special and unique. Nihali doesn’t have many people who speak it anymore, and many of its speakers now use Hindi or Marathi instead. Because fewer people speak it, Nihali is considered an endangered language.",
+        "cultural_significance": "The Nihali language is important to the Nihal people because it helps them stay connected to their history and traditions. In the past, they used Nihali to tell stories, sing songs, and share their customs. These helped teach younger generations about their culture and the way they lived. The language is also used in rituals and festivals, where it helps express their spiritual beliefs and celebrations.",
+        "linguistic_significance": "Nihali has its own sounds and ways of speaking that make it different from Hindi and Marathi. It’s like a secret code for the people who speak it! The structure of the language (how words are put together in a sentence) is also different from other languages, and it has some special words that you won’t find in many other languages. There is no special writing system for Nihali, so it is mostly passed down by talking rather than writing.",
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Nihani Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()

@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Kachari",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": "-Kachari is a Bodo-Garo language spoken by the Kachari people, an indigenous group primarily located in Assam and some parts of Nagaland, Meghalaya, and West Bengal in India.Kachari is primarily an oral language, and while there is some use of the Bengali script for writing, efforts to standardize the language and preserve it are ongoing.",
+        "cultural_significance": "Kachari language is deeply tied to the identity of the Kachari people. It is a medium for their oral traditions, including myths, folklore, and rituals, which have been passed down through generations.Kachari traditions: Through its language, the Kachari people maintain their traditional worldview, values, and a close connection to their ancestors. It serves as a tool for preserving historical narratives, reinforcing the community’s unique cultural practices.",
+        "linguistic_significance": "Kachari exhibits features common to many Bodo-Garo languages, including a subject-object-verb (SOV) word order. The language is tonal, where variations in pitch can change the meaning of words, making it phonetically rich and distinct from non-tonal languages in the region. Morphologically, Kachari uses agglutination, adding affixes to root words to express grammatical relations, which is a characteristic feature of many Sino-Tibetan languages.",
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Kachari Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()

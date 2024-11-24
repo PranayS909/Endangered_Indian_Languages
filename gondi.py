@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Gondi",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": "Gondi is an Austroasiatic language spoken by the Gondi people, primarily in central India, including states like Madhya Pradesh, Chhattisgarh, Maharashtra, Telangana, and Andhra Pradesh.It is the mother tongue of the Gond tribe, one of the largest indigenous tribes in India.Gondi belongs to the Dravidian language family and is considered a minority language with several dialects.",
+        "cultural_significance": "Gondi is a vehicle of oral traditions and plays an essential role in the cultural expression of the Gond community. It is used in rituals, storytelling, and folk music. The language is crucial for preserving the myths, legends, and oral history of the Gond tribe. The traditions and songs, often passed down through generations, are deeply rooted in Gondi.",
+        "linguistic_significance": "Gondi exhibits typical features of Dravidian languages, such as retroflex consonants and agglutinative morphology, where suffixes are added to the root words. Though the language doesn’t have a standardized script, it has been written in the Devanagari script in some instances. Efforts are ongoing to develop a more accessible script and preserve the language.",
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Gondi Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()

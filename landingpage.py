@@ -73,8 +73,8 @@ def central(section):
     region_window.geometry("1000x1000")
 
     try:
-        image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\abhishek-donda-JAoRJvvS4Jc-unsplash.jpg")
-        image = image.resize((576, 432))
+        image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\indian-travel-destination-beautiful-attractive.jpg")
+        image = image.resize((525, 283))
         photo = ImageTk.PhotoImage(image)
         img_label = tk.Label(region_window, image=photo)
         img_label.image = photo
@@ -110,8 +110,8 @@ def west(section):
     region_window.geometry("1000x1000")
 
     try:
-        image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\abhishek-donda-JAoRJvvS4Jc-unsplash.jpg")
-        image = image.resize((576, 432))
+        image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\zoshua-colah-I66lOT6PNls-unsplash.jpg")
+        image = image.resize((504, 283))
         photo = ImageTk.PhotoImage(image)
         img_label = tk.Label(region_window, image=photo)
         img_label.image = photo
@@ -147,8 +147,8 @@ def east(section):
     region_window.geometry("1000x1000")
 
     try:
-        image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\abhishek-donda-JAoRJvvS4Jc-unsplash.jpg")
-        image = image.resize((576, 432))
+        image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\pratham-malviya-Hm59ASJxwJo-unsplash.jpg")
+        image = image.resize((500, 416))
         photo = ImageTk.PhotoImage(image)
         img_label = tk.Label(region_window, image=photo)
         img_label.image = photo
@@ -184,8 +184,8 @@ def south(section):
     region_window.geometry("1000x1000")
 
     try:
-        image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\abhishek-donda-JAoRJvvS4Jc-unsplash.jpg")
-        image = image.resize((576, 432))
+        image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\shawn-powar-9EHNzcwXTok-unsplash.jpg")
+        image = image.resize((547, 365))
         photo = ImageTk.PhotoImage(image)
         img_label = tk.Label(region_window, image=photo)
         img_label.image = photo

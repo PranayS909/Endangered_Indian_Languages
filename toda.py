@@ -42,14 +42,14 @@ def main():
     root.geometry("400x300")
 
     language_data = {
-        "title": "Sanskrit",
+        "title": "Toda",
         "script_photo": "/mnt/data/India_Map.jpg",
-        "description": "Sanskrit is an ancient Indo-European language of South Asia, widely regarded as the language of the Vedas and classical Indian literature.",
-        "cultural_significance": "Sanskrit is deeply tied to Indian culture, serving as the language of Hindu scriptures, classical Indian epics, and scholarly discourse.",
-        "linguistic_significance": "Sanskrit has greatly influenced many modern Indian languages and is considered the root of the Indo-Aryan language family.",
+        "description": "Toda is a language spoken by the Toda people, who live in the mountains of southern India, mainly in the state of Tamil Nadu. The Toda language is part of the Dravidian language family, like Tamil and Telugu, but it's unique and spoken by only a small group of people. The Toda language is not spoken by many people outside their community, and there are fewer and fewer people who speak it today, which makes it a special and endangered language.",
+        "cultural_significance": "The Toda language is very important for the Toda people because it helps them keep their traditions alive. They use the language for storytelling, singing, and during religious ceremonies. The Toda people have unique customs, and their language helps pass down old stories, knowledge about nature, and even rules for how to live in their community. The language is also tied to their special way of life in the mountains, where they raise cattle and live in small villages. Speaking Toda helps people stay connected to their history and culture.",
+        "linguistic_significance": "Linguistically, Toda is interesting because it has some special sounds and words that make it different from many other languages. It has a unique grammar and uses certain vowel sounds and consonants that aren’t found in many other languages, even those in the Dravidian family. Toda is also an oral language, meaning that it is mostly spoken and not written down, which makes it harder for people outside the community to learn it. Linguists study Toda to understand more about how languages change and how different languages are connected to each other.",
     }
 
-    open_button = tk.Button(root, text="Show Information on Kangri Language", command=lambda: open_language_window(language_data))
+    open_button = tk.Button(root, text="Show Information on Toda Language", command=lambda: open_language_window(language_data))
     open_button.pack(expand=True, pady=20)
 
     root.mainloop()
