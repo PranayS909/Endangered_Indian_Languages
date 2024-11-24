@@ -246,5 +246,4 @@ for region, position in regions.items():
 
 tk.Label(text="Select a region to know about its Endangered Languages", font = ("Arial", 12) ).pack()
 
-# Run the application
 window.mainloop()
