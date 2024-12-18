@@ -36,7 +36,7 @@ def north(section):
     region_window.geometry("1000x1000")
 
     try:
-        image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\abhishek-donda-JAoRJvvS4Jc-unsplash.jpg")
+        image = Image.open(r"abhishek-donda-JAoRJvvS4Jc-unsplash.jpg")
         image = image.resize((576, 432))
         photo = ImageTk.PhotoImage(image)
         img_label = tk.Label(region_window, image=photo)
@@ -221,7 +221,7 @@ window.geometry("1000x1000")
 tk.Label(text="Reviving Endangered Languages of India", font = ("Arial", 25) ).pack()
 
 try:
-    image = Image.open(r"C:\Users\prana\OneDrive\Desktop\Python Competition\Endangered_Indian_Languages\Endangered_Indian_Languages\India_Map.jpg")
+    image = Image.open(r"map.jpg")
     image = image.resize((512, 600))
     photo = ImageTk.PhotoImage(image)
     img_label = tk.Label(window, image = photo)
